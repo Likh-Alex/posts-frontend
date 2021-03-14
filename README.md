@@ -19,4 +19,4 @@
 
 ## Now the application is ready to render data.
 
-- In order to obtain and render data please complete the [backend part](https://github.com/Likh-Alex/posts-backend) setup, if you did not finish it yet.
+- In order to obtain and render data please complete the [backend part](https://github.com/Likh-Alex/posts-backend) setup, if you did not do it yet.
