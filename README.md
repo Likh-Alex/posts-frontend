@@ -1,27 +1,22 @@
-# PostsApplication
+## Posts frontend Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+### This application is used to render `Post` and `Comment` data fetched from [backend part](https://github.com/Likh-Alex/posts-backend) .
+- Application is created using [AngularJs](https://angularjs.org)
 
-## Development server
+### In this application user can see `posts` and all its `comments`.
+- The page displays data using `pagination bar` which is located at the `bottom of the page`.
+- Pagination component offers several options for displaying data:
+  - grouping `posts` by `3`, `10`, `20` and `50` `posts` on a page. Default setup is `20` `posts` per page.
+    
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## In order to run the application complete the following steps
+1. Download and Install [Node.js](https://nodejs.org/en/)
+2. Download and Install [Angular CLI](https://cli.angular.io/)
+3. Download the [source code](https://github.com/Likh-Alex/posts-frontend)
+5. Navigate in `terminal` with to the source code root folder and run command `npm install`
+6. Once the packages are installed run command `ng serve`
+7. Once you will see message `✔ Compiled successfully.`- you can open your browser at `http://localhost:4200/` and use the application.
 
-## Code scaffolding
+## Now the application is ready to render data.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- In order to obtain and render data please complete the [backend part](https://github.com/Likh-Alex/posts-backend) setup, if you did not finish it yet.
