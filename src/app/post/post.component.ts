@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Post} from "../post";
-import {Comment} from "../comment";
-import {PageEvent} from "@angular/material/paginator";
-import {ApiService} from "../service/api.service";
+import {Post} from '../post';
+import {Comment} from '../comment';
+import {PageEvent} from '@angular/material/paginator';
+import {ApiService} from '../service/api.service';
 
 @Component({
   selector: 'app-post',
@@ -10,7 +10,7 @@ import {ApiService} from "../service/api.service";
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-  title = "Post component";
+  title = 'Post component';
   posts: Post[] = [];
   postsSlice: Post[] = [];
   comments: Comment[] = [];
@@ -31,8 +31,8 @@ export class PostComponent implements OnInit {
         this.postsSlice = this.posts.slice(0, 20);
       },
       error => {
-        console.log("Can not fetch `posts` data");
-      })
+        console.log('Can not fetch `posts` data');
+      });
   }
 
   public getAllComments() {
@@ -41,9 +41,9 @@ export class PostComponent implements OnInit {
         this.comments = res;
       },
       error => {
-        alert("Can not fetch `comments` data");
+        console.log('Can not fetch `comments` data');
       }
-    )
+    );
   }
 
   public getCommentsByPostId(id: number): Comment[] {

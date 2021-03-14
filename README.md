@@ -13,7 +13,7 @@
 1. Download and Install [Node.js](https://nodejs.org/en/)
 2. Download and Install [Angular CLI](https://cli.angular.io/)
 3. Download the [source code](https://github.com/Likh-Alex/posts-frontend)
-5. Navigate in `terminal` with to the source code root folder and run command `npm install`
+5. Navigate in `terminal` into the source code root folder and run command `npm install`
 6. Once the packages are installed run command `ng serve`
 7. Once you will see message `✔ Compiled successfully.`- you can open your browser at `http://localhost:4200/` and use the application.
 
